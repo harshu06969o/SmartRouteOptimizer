@@ -28,6 +28,7 @@ The goal is to compute optimal paths between locations while handling real-world
 This example demonstrates how the Adaptive Route Optimizer computes the
 shortest valid route while handling real-world constraints such as blocked
 locations.
+```
 
 ### Sample Input
 Enter number of locations: 5 
@@ -43,6 +44,7 @@ Enter number of blocked locations: 1
 Enter blocked locations: 3
 Enter start location: 0 
 Enter destination: 2
+```
 
 ### Sample Ouput
 Optimal Route 0->1->2
@@ -52,6 +54,7 @@ Optimal Route 0->1->2
 - Location `3` is blocked, so any path passing through it is ignored.
 - The algorithm uses Dijkstra’s algorithm to compute the shortest valid path.
 - The final route avoids blocked locations while minimizing total distance.
+
 
 ## Status
 Core functionality complete.Future improvements planned.
