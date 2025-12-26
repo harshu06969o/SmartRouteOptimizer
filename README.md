@@ -54,9 +54,10 @@ Space is used by:
 This example demonstrates how the Adaptive Route Optimizer computes the
 shortest valid route while handling real-world constraints such as blocked
 locations.
-```
+
 
 ### Sample Input
+```
 Enter number of locations: 5 
 Enter number of roads: 6
 Enter roads (from to distance): 
