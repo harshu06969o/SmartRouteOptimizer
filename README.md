@@ -23,6 +23,32 @@ The goal is to compute optimal paths between locations while handling real-world
 - Explicitly handled blocked nodes to simulate real-world constraints
 - Reconstructed paths to return actual routes, not just distances
 
+---
+
+## Time Complexity
+- **Dijkstra’s Algorithm:**  
+  O((V + E)log V) , where  
+  - \( V \) is the number of locations (nodes)  
+  - \( E \) is the number of roads (edges)  
+
+This ensures efficient performance even for larger and sparse road networks.
+
+
+
+## Space Complexity
+O(V + E)
+
+Where:
+- **V** is the number of locations (nodes)
+- **E** is the number of roads (edges)
+
+Space is used by:
+- Adjacency list representation of the graph → O(E)
+- Distance, parent, and blocked arrays → O(V)
+- Priority queue in the worst case → O(V)
+
+---
+
 ## Example Usage
 
 This example demonstrates how the Adaptive Route Optimizer computes the
